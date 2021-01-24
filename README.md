@@ -38,17 +38,27 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home page wireframe - [View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us page wireframe - [View](https://github.com/)
+
+    -   Uploads page wireframe - [View](https://github.com/)
 
 ## Features
 
+### Existing features
+
+#### Features across all pages
+
 -   Responsive on all device sizes
 
+-   Navigation bar which remains fixed at the top of the page
+
 -   Interactive elements
+
+### Future features
 
 ## Technologies Used
 
