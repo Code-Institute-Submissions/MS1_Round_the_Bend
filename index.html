@@ -10,13 +10,14 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Round the Bend - Routes for Bikers</title>
 </head>
-<body>
 
+<body>
+<header>
 <!--Navbar-->
 <!--Code copied and adapted from Bootstrap-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Round the Bend - Routes for bikers, by bikers</a>
+    <a class="navbar-brand" href="index.html">Round the Bend - Routes for bikers, by bikers</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,6 +39,31 @@
     </div>
   </div>
 </nav>
+</header>
+
+<section>
+    <!--Hero image-->
+    <!--Code adapted from CI Whiskey Drop project-->
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">€19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>First one is free!</mark></strong></p>
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>
+</section>
 
 <!--Footer-->
 <footer>
@@ -50,15 +76,22 @@
                 <button class="btn"></button>
             </div>
             <div class="col-auto">
-                <a href="www.facebook.com" target="_blank">
+                <ul class="list-inline">
+                <li class="list-inline-item"> <a href="www.facebook.com" target="_blank">
                     <i class="fab fa-facebook-square"></i>
                 </a>
+                </li>
+                <li class="list-inline-item">
                 <a href="www.instagram.com" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
+                </li>
+                <li class="list-inline-item">
                 <a href="www.twitter.com" target="_blank">
                     <i class="fab fa-twitter-square"></i>
                 </a>
+                </li>
+                </ul>
             </div>
         </div>
     </div>
