@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway, Open Sans';
-}
+    }
 
 /*Containers*/
 
@@ -88,4 +88,43 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.btn--blue {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 70%;
+    color: #D8F4FB;
+    background-color: #5982de;
+    border-color: #5982de;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #D8F4FB;
+    border-color: #D8F4FB;
+    color: #5982de;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0f306e;
+    text-align: center;
+    min-height: 60px;
+    border-top: 1px solid #f80905;
+}
+
+footer p {
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: large;
+    color: #5982de;
+}
+
+.media-icons {
+    font-size: xx-large;
+    color: #5982de;
 }
