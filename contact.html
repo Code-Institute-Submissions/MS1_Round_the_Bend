@@ -16,7 +16,7 @@
 <header>
 <!--Navbar-->
 <!--Code copied and adapted from Bootstrap-->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">Round the Bend</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +42,56 @@
 </nav>
 </header>
 
-<!--Form-->
-<section>
-
-</section>
+<!--Content-->
+<div class="container-fluid">
+    <div class="container spacer-20"></div>
+        <div class="container">
+            <!--Form-->
+            <div class="col-md-6">
+                <div class="subtitle">
+                    <h2>Contact us</h2>
+                    <hr class="block-divider block-divider--gold">
+                </div>
+                <div class="content">
+                    <p>Do you have a question or remark? Please let us know through the form below.</p>
+                    <p class="text-muted">Items with an * are required</p>
+                    <form>
+                        <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last name *" required />
+                        <input type="text" name="firstname" id="firstname" class="form-control" placeholder="First name *" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email *" required />
+                        <input type="text" name="message" id="message" class="form-control" placeholder="Message *" required />
+                        <div class="text-center">
+                        <button type="submit" class="btn btn--red" value="Submit"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--/Form-->
+            <!--About-->
+            <div class="col-md-6">
+                <div class="subtitle">
+                    <h2>About us</h2>
+                    <hr class="block-divider block-divider--gold">
+                </div>
+                <div class="content">
+                    <p>We are a group of friends who enjoy getting together for a ride. Some have been riding motorcycles for
+                        over a decade,
+                        but our group includes all skill levels from complete novices to experienced bikers. We are based in
+                        Belgium,
+                        so most of our routes are also situated there, but at least once a year we plan a weeklong trip to
+                        another country.</p>
+                    <p>Over the years we've racked up a lot of kilometers and accumulated some outstanding routes. After
+                        spending time putting them
+                        together and enjoying the ride, it just always seemed such a waste not to be able to share them with
+                        more people.
+                        Now that gpx files are finally supported by most SatNav manufacturers, we feel this is the best way to
+                        share them with you.</p>
+                </div>
+            </div>
+            <!--/About-->
+        </div>
+</div>
+<!--/Content-->
 
 <!--Footer-->
 <footer class="container-fluid">
