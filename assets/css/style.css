@@ -39,6 +39,15 @@ body {
     min-height: 80vh;
     }
 
+.image-container {
+    padding-top: 90px; 
+   }
+
+.card-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Navbar */
 
 .header {
