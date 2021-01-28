@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway, Open Sans';
+    background-color: #D8F4FB;
     }
 
 /*Containers*/
@@ -113,7 +114,11 @@ body {
     color: #d0d0d0;
 }
 
-/* Subtitles */
+/* Headings */
+
+.title {
+    justify-content: center;
+}
 
 .subtitle {
     text-align: center;
@@ -135,7 +140,7 @@ body {
 }
 
 .block-divider--gold {
-    width: 90px;
+    width: 100%;
     background-color: #d4af37;
 }
 
@@ -190,6 +195,12 @@ body {
     border-color: #0f306e;
 }
 
+.btn-dwnld {
+    background-color: #0f306e;
+    border-color: #f80905;
+    font-weight: bold;
+    color: #d4af37;
+}
 
 /* Footer */
 
@@ -212,5 +223,17 @@ footer p {
     color: #5982de;
 }
 
-/* Contact page */
+/* Routes cards */
 
+p.card-text {
+    text-align: justify;
+}
+
+div.card {
+    border: none;
+    background-color: #D8F4FB;
+}
+
+.card-title {
+    color: #0f306e;
+}
