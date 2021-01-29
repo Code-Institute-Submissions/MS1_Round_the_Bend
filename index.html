@@ -7,7 +7,7 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Round the Bend - Routes for Bikers</title>
 </head>
@@ -64,21 +64,23 @@
     <!--/.Hero image-->
 </section>
 
-<!--Content grid-->
+<!--Content-->
+<!--Code for card groups copied and adapted from Bootstrap-->
 <section>
-<div class="container-fluid">
+<div class="container-fluid mainsection">
     <div class="container card-container">
         <div class="card mb-3">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="/assets/images/inspire-cropped 282.jpg" alt="...">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/assets/images/explore.jpg" alt="Biker on tarmac road" class="cardimg">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 d-flex align-self-center">
                     <div class="card-body">
-                        <h5 class="card-title">Explore</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h2 class="card-title text-center homeheading"><strong>Explore</strong></h2>
+                        <p class="card-text text-center hometext">Looking for new and exciting routes? Come and explore with us!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-lg btn--cta">Explore</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,16 +89,17 @@
     <div class="container card-container">
         <div class="card mb-3">
             <div class="row g-0">
-                <div class="col-md-8">
+                <div class="col-md-8 d-flex align-self-center">
                     <div class="card-body">
-                        <h5 class="card-title">Connect</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h2 class="card-title text-center homeheading">Connect</h2>
+                        <p class="card-text text-center hometext">Questions? Remarks? Suggestions? We'd love to hear from you!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-lg btn--cta">Connect</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="/assets/images/inspire-cropped 282.jpg" alt="...">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/assets/images/contact.jpg" alt="Biker holding his hands up in question" class="cardimg">
                 </div>
             </div>
         </div>
@@ -104,20 +107,22 @@
     <div class="container card-container">
         <div class="card mb-3">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="/assets/images/inspire-cropped 282.jpg" alt="...">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/assets/images/inspire.jpg" alt="Empty patchy tarmac road" class="cardimg">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 d-flex align-self-center">
                     <div class="card-body">
-                        <h5 class="card-title">Inspire</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h2 class="card-title text-center homeheading">Inspire</h2>
+                        <p class="card-text text-center hometext">Do you have a route you think we'd might like? Be sure to submit it and inspire others!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-lg btn--cta">Inspire</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
 </div>
 </section>
 

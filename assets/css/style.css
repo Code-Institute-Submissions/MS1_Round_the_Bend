@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway, Open Sans';
+    font-family: 'Domine, Fira Sans, Raleway';
     background-color: #D8F4FB;
     }
 
@@ -47,6 +47,10 @@ body {
 .card-container {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.mainsection {
+    padding-top: 30px;
 }
 
 /* Navbar */
@@ -97,7 +101,7 @@ body {
 
 .jumbotron h1 {
     color: white;
-    font-family: 'Raleway, Open Sans';
+    font-family: 'Domine, Raleway, Fira Sans';
     font-weight: bold;
     margin-bottom: 30px;
     color: #D8F4FB;
@@ -124,6 +128,13 @@ body {
     text-align: center;
     font-weight: 700;
     color: #0f306e;
+}
+
+.homeheading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 60px;
+    line-height: 74px;
+    font-weight: 700;
 }
 
 /* Block dividers */
@@ -223,9 +234,9 @@ footer p {
     color: #5982de;
 }
 
-/* Routes cards */
+/* Cards */
 
-p.card-text {
+.routestext {
     text-align: justify;
 }
 
@@ -235,5 +246,18 @@ div.card {
 }
 
 .card-title {
+    color: #0f306e;
+}
+
+.cardimg {
+    border-radius: 50%;    
+}
+
+.hometext {
+    font-family: 'Domine, Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
     color: #0f306e;
 }
