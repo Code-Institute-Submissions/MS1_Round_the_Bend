@@ -8,7 +8,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url('../images/handlebars.jpg') no-repeat bottom right fixed;
+    background: url('../images/handlebars.jpg') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
