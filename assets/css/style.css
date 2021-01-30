@@ -131,10 +131,11 @@ body {
 }
 
 .homeheading {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 60px;
-    line-height: 74px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    line-height: 40px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* Block dividers */
@@ -159,8 +160,21 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+    border-radius: 25px;
+    width: 40%;
+    height: 50px;
+    color: #D8F4FB;
+    background-color: #5982de;
+    border-color: #f80905;
+}
+
+.btn--cta:hover,
+.btn--cta:active,
+.btn--cta:focus,
+.btn--cta:active:focus {
+    background-color: #D8F4FB;
+    border-color: #f80905;
+    color: #5982de;
 }
 
 .btn--red {
@@ -254,10 +268,9 @@ div.card {
 }
 
 .hometext {
-    font-family: 'Domine, Raleway', sans-serif;
+    font-family: 'Domine', sans-serif;
     font-size: 24px;
     font-weight: 300;
-    font-style: italic;
     line-height: 24px;
     color: #0f306e;
 }
