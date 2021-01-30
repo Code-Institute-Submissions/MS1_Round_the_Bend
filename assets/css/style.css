@@ -27,7 +27,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .content-container {
@@ -100,16 +100,19 @@ body {
 }
 
 .jumbotron h1 {
-    color: white;
-    font-family: 'Domine, Raleway, Fira Sans';
+    font-family: 'Raleway, Fira Sans', sans-serif;
     font-weight: bold;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin-bottom: 20px;
     color: #D8F4FB;
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: #5982DE;
     margin: 25px 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
 }
 
 .jumbotron small {
@@ -147,8 +150,9 @@ body {
     background-color: #444;
 }
 
-.block-divider--orange {
-    background-color: #f80905;
+.block-divider--jumbo {
+    width: 70%;
+    background-color: #d4af37;
 }
 
 .block-divider--gold {
