@@ -181,21 +181,6 @@ body {
     color: #5982de;
 }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
 .btn--blue {
     font-weight: bold;
     border-radius: 23px;
@@ -277,4 +262,41 @@ div.card {
     font-weight: 300;
     line-height: 24px;
     color: #0f306e;
+}
+
+/* Scroll invitation */
+/* Code copied and adapted from https://codepen.io/snapsnapturtle/pen/KwRzEx */
+
+.mouseContainer {
+  width: 24px;
+  margin: 0 auto;
+  text-align: center;
+  } 
+  
+.mouse {
+  border: 5px solid #d8f4fb;
+    width: 36px;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+}
+  
+.wheel {
+  width: 5px;
+  height: 5px;
+  border: 2px solid #5982de;
+  background-color: #5982de;
+  position: relative;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -2px;
+  top: 7px;
+  animation: scroll 1s infinite;
+}
+  
+@keyframes scroll {
+  0%   { top: 6px; opacity: 0;}
+  20% { opacity: 1; }
+  80% { opacity: 1;}
+  100% {top: 20px; opacity: 0;}
 }
