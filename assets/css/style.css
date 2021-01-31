@@ -12,6 +12,11 @@ body {
     font-size: large;
 }
 
+.contactcontent {
+    font-family: 'Domine', sans-serif;
+    font-size: 16px;
+}
+
 /*Containers*/
 
 .callout-container {
