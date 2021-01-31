@@ -42,6 +42,54 @@
 </nav>
 </header>
 
+<!--Content-->
+<div class="container-fluid content-container">
+    <div class="container row title">
+        <div class="subtitle">
+            <h1>Uploads</h1>
+            <hr class="block-divider block-divider--gold">
+        </div>
+    </div>
+    <div class="container row content">
+        <p>Do you have a nice route you'd like to share with other bikers?
+            Please submit it below and we will feature it on this website.</p>
+        <p class="text-muted">Items with an * are required</p>
+        <form class="container-fluid">
+            <div class="mb-3">
+                <input type="text" name="routename" id="routename" class="form-control"
+                    placeholder="Route name *" required />
+            </div>
+            <div class="mb-3">
+                <input type="text" name="routedescription" id="routedescription" class="form-control"
+                    placeholder="Give a short description of your route *" required />
+            </div>
+            <div class="mb-3">
+                <input type="text" name="routestart" id="routestart" class="form-control" placeholder="Start location *"
+                    required />
+            </div>
+            <div class="mb-3">
+                <input type="text" name="routefinish" id="routefinish" class="form-control"
+                    placeholder="Finish location *" required />
+            </div>
+            <div class="mb-3">
+                <input type="file" name="routefile" id="routefile" class="form-control" accept=".gpx" required />
+            </div>
+            <div class="mb-3">
+                <input type="text" name="fullname" id="fullname" class="form-control"
+                    placeholder="Your full name here *" required />
+            </div>
+            <div class="mb-3">
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email *"
+                    required />
+            </div>
+            <div class="text-center mb-3">
+                <button type="submit" class="btn btn-lg btn--cta" value="Submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!--/.Content-->
+
 <!--Footer-->
 <footer class="container-fluid">
         <div class="row">
