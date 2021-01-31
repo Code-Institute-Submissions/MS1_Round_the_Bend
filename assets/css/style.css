@@ -215,16 +215,6 @@ body {
     color: #5982de;
 }
 
-.btn--darkblue {
-    font-weight: bold;
-    border-radius: 25px;
-    width: 40%;
-    height: 50px;
-    color: #D8F4FB;
-    background-color: #0f306e;
-    border-color: #0f306e;
-}
-
 .btn-dwnld {
     background-color: #0f306e;
     border-color: #f80905;
