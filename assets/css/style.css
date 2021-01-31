@@ -155,6 +155,7 @@ body {
     line-height: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 /* Block dividers */
@@ -268,12 +269,13 @@ div.card {
     font-weight: 300;
     line-height: 24px;
     color: #0f306e;
+    margin-bottom: 1.5rem;
 }
 
 /* Scroll invitation */
 /* Code copied and adapted from https://codepen.io/snapsnapturtle/pen/KwRzEx */
 
-.mouseContainer {
+.mousecontainer {
   width: 24px;
   margin: 0 auto;
   text-align: center;
