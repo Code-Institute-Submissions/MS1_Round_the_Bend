@@ -1,7 +1,16 @@
 body {
     font-family: 'Domine, Fira Sans, Raleway';
     background-color: #D8F4FB;
+    color: #0f306e;
     }
+
+.uploadcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    font-size: large;
+}
 
 /*Containers*/
 

@@ -1,145 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Round the Bend - Routes for Bikers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Round the Bend - Routes for Bikers</title>
 </head>
 
 <body>
-<header>
-<!--Navbar-->
-<!--Code copied and adapted from Bootstrap-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Round the Bend</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/routes.html">Routes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact.html">Contact</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/uploads.html">Uploads</a>
-        </li>        
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+    <header>
+        <!--Navbar-->
+        <!--Code copied and adapted from Bootstrap-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Round the Bend</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/routes.html">Routes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/uploads.html">Uploads</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<!--Content-->
-<div class="container-fluid content-container">
-    <div class="container row title">
-        <div class="subtitle">
-            <h1>Uploads</h1>
-            <hr class="block-divider block-divider--gold">
+    <!--Content-->
+    <div class="container-fluid content-container">
+        <div class="container row title">
+            <div class="subtitle">
+                <h1>Uploads</h1>
+                <hr class="block-divider block-divider--gold">
+            </div>
+        </div>
+        <div class="container row uploadcontent">
+            <p>Do you have a nice route you'd like to share with other bikers?
+                Please submit it below and we will feature it on this website.</p>
+            <p class="text-muted">Items with an * are required</p>
+            <form class="container-fluid">
+                <div class="mb-3">
+                    <input type="text" name="routename" id="routename" class="form-control" placeholder="Route name *"
+                        required />
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="routedescription" id="routedescription" class="form-control"
+                        placeholder="Give a short description of your route *" required />
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="routestart" id="routestart" class="form-control"
+                        placeholder="Start location *" required />
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="routefinish" id="routefinish" class="form-control"
+                        placeholder="Finish location *" required />
+                </div>
+                <div class="mb-3">
+                    <input type="file" name="routefile" id="routefile" class="form-control" accept=".gpx" required />
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="fullname" id="fullname" class="form-control"
+                        placeholder="Your full name here *" required />
+                </div>
+                <div class="mb-3">
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email *"
+                        required />
+                </div>
+                <div class="text-center mb-3">
+                    <button type="submit" class="btn btn-lg btn--cta" value="Submit">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
-    <div class="container row content">
-        <p>Do you have a nice route you'd like to share with other bikers?
-            Please submit it below and we will feature it on this website.</p>
-        <p class="text-muted">Items with an * are required</p>
-        <form class="container-fluid">
-            <div class="mb-3">
-                <input type="text" name="routename" id="routename" class="form-control"
-                    placeholder="Route name *" required />
-            </div>
-            <div class="mb-3">
-                <input type="text" name="routedescription" id="routedescription" class="form-control"
-                    placeholder="Give a short description of your route *" required />
-            </div>
-            <div class="mb-3">
-                <input type="text" name="routestart" id="routestart" class="form-control" placeholder="Start location *"
-                    required />
-            </div>
-            <div class="mb-3">
-                <input type="text" name="routefinish" id="routefinish" class="form-control"
-                    placeholder="Finish location *" required />
-            </div>
-            <div class="mb-3">
-                <input type="file" name="routefile" id="routefile" class="form-control" accept=".gpx" required />
-            </div>
-            <div class="mb-3">
-                <input type="text" name="fullname" id="fullname" class="form-control"
-                    placeholder="Your full name here *" required />
-            </div>
-            <div class="mb-3">
-                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email *"
-                    required />
-            </div>
-            <div class="text-center mb-3">
-                <button type="submit" class="btn btn-lg btn--cta" value="Submit">Submit</button>
-            </div>
-        </form>
-    </div>
-</div>
-<!--/.Content-->
+    <!--/.Content-->
 
-<!--Footer-->
-<footer class="container-fluid">
+    <!--Footer-->
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4 py-5">
                 <p>2021 Round the Bend - For educational purposes only</p>
             </div>
             <div class="col-sm-4 py-5">
-                <button class="btn btn-lg btn--blue" data-toggle="modal" data-target="#signUpModal">Sign up for our newsletter!</button>
+                <button class="btn btn-lg btn--blue" data-toggle="modal" data-target="#signUpModal">Sign up for our
+                    newsletter!</button>
             </div>
             <div class="col-sm-4 py-5">
                 <ul class="list-inline">
-                <li class="list-inline-item"> <a href="www.facebook.com" target="_blank" class="media-icons" aria-label="Facebook link">
-                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                <a href="www.instagram.com" target="_blank" class="media-icons" aria-label="Instagram link">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                <a href="www.twitter.com" target="_blank" class="media-icons" aria-label="Twitter link">
-                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                </a>
-                </li>
+                    <li class="list-inline-item"> <a href="www.facebook.com" target="_blank" class="media-icons"
+                            aria-label="Facebook link">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="www.instagram.com" target="_blank" class="media-icons" aria-label="Instagram link">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="www.twitter.com" target="_blank" class="media-icons" aria-label="Twitter link">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </div>    
-</footer>
+        </div>
+    </footer>
 
-<!--Modal-->
-<!--Code adapted from CI Whiskey Drop project-->
+    <!--Modal-->
+    <!--Code adapted from CI Whiskey Drop project-->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Sign up for our newsletter!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
                         </div>
                         <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn--blue">Submit</button>
+                            <button type="submit" class="btn btn--blue">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -147,8 +156,9 @@
         </div>
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
