@@ -1,8 +1,8 @@
 <h1 align="center">Round the Bend Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://msierag.github.io/MS1_Round_the_Bend/)
 
-This is the website for the fictional organisation Round the Bend. The purpose of this website is to provide the biker community with a location to share gps routes. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential users.
+This is the website for the fictional organisation Round the Bend. The purpose of this website is to provide the biker community with a location to share gps routes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -30,21 +30,27 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are .
+        -   There are five colours used throughout the site, the first three are main colours and the remaining two are used for accents.
+                ![Coolors rendering of colour scheme](/assets/docs/rtbcolourscheme.png)
+            The colours #0F306E, #5982DE and F80905 were chosen as they approach the palette of the decals on the 1988 Honda Transalp 600, an iconic enduro motorcycle. The colour #D4AF37 was chosen as an accent colour as it resembles the colour of many motorcycle brake calipers. Finally, #D8F4FB was added as a transition colour to soften the vibrant palette where needed. 
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Domine font is the main font used throughout the whole website with Fira Sans, Raleway and ultimately Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Domine is a serif font which was designed for body text on the web and is friendly on the eyes.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It puts the user in the position of a biker in the driver's seat. The three images used in the Explore, Connect and Inspire sections of the Home page capture the gist of the text. The image at the top of the Routes page represents the sense of adventure and freedom typically associated with riding a motorcycle. 
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](https://github.com/)
+    -   Home page wireframe - [View](/assets/docs/rtbhome.png)
 
-    -   Mobile wireframe - [View](https://github.com/)
+    -   Routes page wireframe - [View](/assets/docs/rtbroutes.png)
 
-    -   Contact Us page wireframe - [View](https://github.com/)
+    -   Contact page wireframe - [View](/assets/docs/rtbcontact.png)
 
-    -   Uploads page wireframe - [View](https://github.com/)
+    -   Uploads page wireframe - [View](/assets/docs/rtbuploads.png)
+
+    -   Mobile wireframes - [View](/assets/docs/rtbsmartphone.png)
+
+    -   Table wireframes - [View](/assets/docs/rtbtablet.png)
 
 ## Features
 
