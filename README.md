@@ -10,28 +10,25 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+    -   #### Visiting User Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site 
-        2. As a First Time Visitor, I want to learn more about the organisation.
+        1.  
+        2. 
         3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         4. As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         2. As a Returning Visitor, I want to be able to view the details of the routes.
         3. As a Returning Visitor, I want to be able to download the gps files for the route of my choice.
 
-    -   #### Frequent User Goals
         1. As a Frequent User, I want to be able to post routes.
-        2. As a Frequent User, I want to check to see if any new routes have been posted.
+        2. 
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
     -   #### Colour Scheme
         -   There are five colours used throughout the site, the first three are main colours and the remaining two are used for accents.
-                ![Coolors rendering of colour scheme](/assets/docs/rtbcolourscheme.png)
+                ![Coolors rendering of colour scheme](./docs/rtbcolourscheme.png)
             The colours #0F306E, #5982DE and F80905 were chosen as they approach the palette of the decals on the 1988 Honda Transalp 600, an iconic enduro motorcycle. The colour #D4AF37 was chosen as an accent colour as it resembles the colour of many motorcycle brake calipers. Finally, #D8F4FB was added as a transition colour to soften the vibrant palette where needed. 
     -   #### Typography
         -   The Domine font is the main font used throughout the whole website with Fira Sans, Raleway and ultimately Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Domine is a serif font which was designed for body text on the web and is friendly on the eyes.
@@ -40,17 +37,17 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](/assets/docs/rtbhome.png)
+    -   Home page wireframe - [View](./docs/rtbhome.png)
 
-    -   Routes page wireframe - [View](/assets/docs/rtbroutes.png)
+    -   Routes page wireframe - [View](./docs/rtbroutes.png)
 
-    -   Contact page wireframe - [View](/assets/docs/rtbcontact.png)
+    -   Contact page wireframe - [View](./docs/rtbcontact.png)
 
-    -   Uploads page wireframe - [View](/assets/docs/rtbuploads.png)
+    -   Uploads page wireframe - [View](./docs/rtbuploads.png)
 
-    -   Mobile wireframes - [View](/assets/docs/rtbsmartphone.png)
+    -   Mobile wireframes - [View](./docs/rtbsmartphone.png)
 
-    -   Table wireframes - [View](/assets/docs/rtbtablet.png)
+    -   Table wireframes - [View](./docs/rtbtablet.png)
 
 ## Features
 
@@ -58,11 +55,39 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 #### Features across all pages
 
--   Responsive on all device sizes
+-   Navigation bar which remains fixed at the top of the page. It makes for easy and consistent navigation throughout the site. The current page is highlighted dark.
 
--   Navigation bar which remains fixed at the top of the page
+-   Footer which appears on every page and stays at the bottom. The footer contains the statement that this website is for educational purposes only.
 
--   Interactive elements
+-   Newsletter sign-up button is located in middle of the footer on every page. The colours on the button are inverted when the user hovers over it. When selected, a modal pop-up appears allowing the user to submit their email address.
+
+-   Social media icons are located in the right hand section of the footer and appear on every page. When the user hovers over an icon it appears darker against the background. When selected the icons provide a link to the relevant social medium in a separate page.
+
+#### Page specific features
+
+##### Home page
+
+-   Hero image which takes up the full view height upon opening. The image virtually puts the user in the driver's seat with a view across the handlebars, which aims to create an emotional connection.
+
+-   Scrolling mouse wheel animation to direct the user to scroll down to the content initially hidden from view by the hero image.
+
+-   Content section containing three cards with statement headings and minimal text aimed to elicit an emotional response. The text is flanked by images to match the message. The text is followed by a call to action button which reiterates the statement heading and when selected lands the user on the appropriate page on the website.  
+
+##### Routes page
+
+-   Heading image which conveys the sense of adventure and freedom typically associated with riding a motorcycle. The image is deliberately not full-width nor full view height so as not to obscure the content section or require a scroll invitation.
+
+-   Content section consisting of cards with the details of the routes on offer. The section is subdivided by country and designated by a heading. Each route card contains a call to action button inviting the user to download the gpx file. When selected the download opens on a separate tab. 
+
+##### Contact page
+
+-   Contact Us column contains a form which allows the users  
+
+-   Call to action buttons 
+
+##### Uploads page
+
+-   
 
 ### Future features
 
