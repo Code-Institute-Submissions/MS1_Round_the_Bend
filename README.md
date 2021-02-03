@@ -24,7 +24,7 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 -   ### Design
     -   #### Colour Scheme
         -   There are five colours used throughout the site, the first three are main colours and the remaining two are used for accents.
-                ![Coolors rendering of colour scheme](docs/rtbcolourscheme.png)
+                ![Coolors rendering of colour scheme](/workspace/full-template/assets/images/rtbcolourscheme.png)
             The colours #0F306E, #5982DE and F80905 were chosen as they approach the palette of the decals on the 1988 Honda Transalp 600, an iconic enduro motorcycle. The colour #D4AF37 was chosen as an accent colour as it resembles the colour of many motorcycle brake calipers. Finally, #D8F4FB was added as a transition colour to soften the vibrant palette where needed. 
     -   #### Typography
         -   The Domine font is the main font used throughout the whole website with Fira Sans, Raleway and ultimately Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Domine is a serif font which was designed for body text on the web and is friendly on the eyes.
@@ -33,17 +33,17 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](./docs/rtbhome.png)
+    -   Home page wireframe - [View](/workspace/full-template/assets/images/rtbhome.png)
 
-    -   Routes page wireframe - [View](./docs/rtbroutes.png)
+    -   Routes page wireframe - [View](/workspace/full-template/assets/images/rtbroutes.png)
 
-    -   Contact page wireframe - [View](./docs/rtbcontact.png)
+    -   Contact page wireframe - [View](/workspace/full-template/assets/images/rtbcontact.png)
 
-    -   Uploads page wireframe - [View](./docs/rtbuploads.png)
+    -   Uploads page wireframe - [View](/workspace/full-template/assets/images/rtbuploads.png)
 
-    -   Mobile wireframes - [View](./docs/rtbsmartphone.png)
+    -   Mobile wireframes - [View](/workspace/full-template/assets/images/rtbsmartphone.png)
 
-    -   Tablet wireframes - [View](./docs/rtbtablet.png)
+    -   Tablet wireframes - [View](/workspace/full-template/assets/images/rtbtablet.png)
 
 ## Features
 
