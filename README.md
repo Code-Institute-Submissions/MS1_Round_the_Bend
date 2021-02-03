@@ -2,6 +2,8 @@
 
 [View the live project here.](https://msierag.github.io/MS1_Round_the_Bend/)
 
+## Purpose of the website
+
 This is the website for the fictional organisation Round the Bend. The purpose of this website is to provide the biker community with a location to share gps routes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
@@ -53,39 +55,50 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 -   Navigation bar which remains fixed at the top of the page. It makes for easy and consistent navigation throughout the site. The current page is highlighted dark.
 
--   Footer which appears on every page and stays at the bottom. The footer contains the statement that this website is for educational purposes only.
+-   Footer which appears on every page and stays at the bottom. The footer contains:
 
--   Newsletter sign-up button is located in middle of the footer on every page. The colours on the button are inverted when the user hovers over it. When selected, a modal pop-up appears allowing the user to submit their email address.
+       - the statement that this website is for educational purposes only.
 
--   Social media icons are located in the right hand section of the footer and appear on every page. When the user hovers over an icon it appears darker against the background. When selected the icons provide a link to the relevant social medium in a separate page.
+       - newsletter sign-up button. The colours on the button are inverted when the user hovers over it. When selected, a modal pop-up appears allowing the user to submit their email address.
+
+       - social media icons. When the user hovers over an icon it appears darker against the background. When selected the icons provide a link to the relevant social medium in a separate page.
 
 #### Page specific features
 
 ##### Home page
 
--   Hero image which takes up the full view height upon opening. The image virtually puts the user in the driver's seat with a view across the handlebars, which aims to create an emotional connection.
+-   Hero image which virtually puts the user in the driver's seat with a view across the handlebars. 
+
+-   Callout on the hero image which informs the user of the purpose of the site through the slogan "Routes for bikers, by bikers".
 
 -   Scrolling mouse wheel animation to direct the user to scroll down to the content initially hidden from view by the hero image.
 
--   Content section containing three cards with statement headings and minimal text aimed to elicit an emotional response. The text is flanked by images to match the message. The text is followed by a call to action button which reiterates the statement heading and when selected lands the user on the appropriate page on the website.  
+-   Content section containing three cards with statement headings and minimal text aimed to elicit an emotional response. 
+
+-   Call to action buttons which reiterate the statement headings and when selected land the user on the appropriate page on the website.  
 
 ##### Routes page
 
 -   Heading image which conveys the sense of adventure and freedom typically associated with riding a motorcycle. The image is deliberately not full-width nor full view height so as not to obscure the content section or require a scroll invitation.
 
--   Content section consisting of cards with the details of the routes on offer. The section is subdivided by country and designated by a heading. Each route card contains a call to action button inviting the user to download the gpx file. When selected the download opens on a separate tab. 
+-   Content section consisting of cards with the details of the routes on offer, arranged by country.  
+
+-   Each route card contains a call to action button to download the gpx file. When selected the download opens on a separate tab. 
 
 ##### Contact page
 
--   Contact Us column contains a form which allows the users  
-
--   Call to action buttons 
+-   Contact Us column contains a form which allows the user to submit their questions or remarks to the organisation. 
 
 ##### Uploads page
 
--   
+-   Form which allows the user to submit their own route to the organisation.  
 
 ### Future features
+
+-   A login procedure to register users. 
+-   Search function on the Routes page. 
+-   Small map of the route to be displayed above the heading of the route. 
+-   Indication of "New" to appear next to routes which were added since a registered user's last visit. Unregistered users/visitors would not see this indication.
 
 ## Technologies Used
 
@@ -134,7 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
         2. Underneath there is a Hero Image with text stating the purpose of the site and a scrolling wheel to invite the user to scroll down. 
         3. The user has two options, click the link to the page of their choice in the navigation bar or scroll down.
-        4. Scrolling down leads the user to three sections which  with a call to action button each to lead the user to the respective Routes, Contact or Uploads pages.
+        4. Scrolling down leads the user to three sections each with a call to action button to lead the user to the respective Routes, Contact or Uploads pages.
 
     2. As a visiting user, I want to be able to easily navigate throughout the site to find content.
 
@@ -148,7 +161,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user can reach the "Contact" page by either selecting the link in the navigation bar or the call to action button in the "Connect" section on the "Home" page.
         2. On the "Contact" page the user can fill out the form on the page. 
-        3. Alternatively, the footer contains links to the organisation's Facebook and Instagram page.
+        3. Alternatively, the footer contains links to the organisation's social media presence.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
     5. As a visiting user, I want to be able to view the details of the routes.
