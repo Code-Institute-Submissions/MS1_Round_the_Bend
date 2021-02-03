@@ -98,12 +98,10 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Domine', 'Raleway' and 'Fira Sans' fonts into the style.css file which are used throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used to add the social media icons to the footer.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
@@ -112,6 +110,13 @@ This is the website for the fictional organisation Round the Bend. The purpose o
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [TinyJPG](https://tinyjpg.com/) 
+    - TinyJPG was used to reduce image file sizes.
+1. [Croppola](https://croppola.com)
+    - Croppola was used to crop the images for the "Explore", "Connect" and "Inspire" section on the "Home" page.
+1. [Coolors](https://coolors.co/)
+    - Coolors was used to generate the palette used throughout the site.
+
 
 ## Testing
 
@@ -235,24 +240,35 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The full-screen hero image code came from the Whiskey Drop project [StackOverflow post](https://stackoverflow.com)
+
+-   The code for the scrolling wheel animation came from [Codepen](https://codepen.io/snapsnapturtle/pen/KwRzEx)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Inspiration for this site came chiefly from [Motorroutes](https://motorroutes.net/) and [Rever](https://www.rever.co/)
+
 
 ### Media
 
--   All Images were created by the developer.
+-   Hero image was created by the developer.
+
+-   Image for the "Explore" section on the "Home" page by Will Li on [Unsplash](https://unsplash.com/@willxli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+-   Image for the "Connect" section on the "Home" page by Diva Additiya Putra on [Unsplash](https://unsplash.com/@divaap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+-   Image for the "Inspire" section on the "Home" page by Sergio on [Unsplash](https://unsplash.com/@sergiolo123?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+-   Image for the "Routes" page by Blaz Erzetic on [Unsplash](https://unsplash.com/@www_erzetich_com?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Rohit Sharma for continuous helpful feedback.
+
+-   Friends and family for feedback and helpful suggestions.
 
 -   Tutor support at Code Institute for their support.
