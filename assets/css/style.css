@@ -4,7 +4,7 @@ body {
     color: #0f306e;
     }
 
-.uploadcontent {
+.upload-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
