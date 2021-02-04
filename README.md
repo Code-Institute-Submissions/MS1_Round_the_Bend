@@ -6,8 +6,6 @@
 
 This is the website for the fictional organisation Round the Bend. The purpose of this website is to provide the biker community with a location to share gps routes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
-
 ## User Experience (UX)
 
 -   ### User stories
@@ -96,7 +94,7 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 ### Future features
 
 -   A login procedure to register users. 
--   Search function on the Routes page. 
+-   As more routes and destinations are added, a filter and search function will be added on the Routes page. 
 -   Small map of the route to be displayed above the heading of the route. 
 -   Indication of "New" to appear next to routes which were added since a registered user's last visit. Unregistered users/visitors would not see this indication.
 
@@ -122,14 +120,13 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 1. [TinyJPG](https://tinyjpg.com/) 
     - TinyJPG was used to reduce image file sizes.
 1. [Croppola](https://croppola.com)
     - Croppola was used to crop the images for the "Explore", "Connect" and "Inspire" section on the "Home" page.
 1. [Coolors](https://coolors.co/)
     - Coolors was used to generate the palette used throughout the site.
-
 
 ## Testing
 
@@ -232,19 +229,10 @@ It is listed as a known issue.
         3. Upon clicking the button a modal form appears where the user is prompted to Enter their email address.
         4. An easily distinguishable "Submit" button at the bottom of the modal form.
 
-### Further Testing
-
-
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
 ### Known Issues
 
 -   On mobile devices with a screen narrower than 360px the contents of the card section on index.html pushed out of alignment.
     -   Text and text on buttons disappears from view as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
 
