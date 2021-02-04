@@ -26,7 +26,7 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 -   ### Design
     -   #### Colour Scheme
         -   There are five colours used throughout the site, the first three are main colours and the remaining two are used for accents.
-                ![Coolors rendering of colour scheme](/workspace/full-template/assets/images/rtbcolourscheme.png)
+                ![Coolors rendering of colour scheme](./assets/images/rtbcolourscheme.png)
             The colours #0F306E, #5982DE and F80905 were chosen as they approach the palette of the decals on the 1988 Honda Transalp 600, an iconic enduro motorcycle. The colour #D4AF37 was chosen as an accent colour as it resembles the colour of many motorcycle brake calipers. Finally, #D8F4FB was added as a transition colour to soften the vibrant palette where needed. 
     -   #### Typography
         -   The Domine font is the main font used throughout the whole website with Fira Sans, Raleway and ultimately Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Domine is a serif font which was designed for body text on the web and is friendly on the eyes.
@@ -35,17 +35,17 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](/workspace/full-template/assets/images/rtbhome.png)
+    -   Home page wireframe - [View](./assets/images/wireframes/rtbhome.png)
 
-    -   Routes page wireframe - [View](/workspace/full-template/assets/images/rtbroutes.png)
+    -   Routes page wireframe - [View](./assets/images/wireframes/rtbroutes.png)
 
-    -   Contact page wireframe - [View](/workspace/full-template/assets/images/rtbcontact.png)
+    -   Contact page wireframe - [View](./assets/images/wireframes/rtbcontact.png)
 
-    -   Uploads page wireframe - [View](/workspace/full-template/assets/images/rtbuploads.png)
+    -   Uploads page wireframe - [View](./assets/images/wireframes/rtbuploads.png)
 
-    -   Mobile wireframes - [View](/workspace/full-template/assets/images/rtbsmartphone.png)
+    -   Mobile wireframes - [View](./assets/images/wireframes/rtbsmartphone.png)
 
-    -   Tablet wireframes - [View](/workspace/full-template/assets/images/rtbtablet.png)
+    -   Tablet wireframes - [View](./assets/images/wireframes/rtbtablet.png)
 
 ## Features
 
@@ -135,8 +135,18 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    - Index 
+    - Routes - [Result](https://github.com/)
+    - Contact
+    - Uploads
+
+    Only the index.html showed a warning. After removing senseless section tags around the Hero image, the warnings have disappeared.
+    - Index - after 
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+    No errors or warnings were given for the CSS code - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -162,7 +172,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The user can reach the "Contact" page by either selecting the link in the navigation bar or the call to action button in the "Connect" section on the "Home" page.
         2. On the "Contact" page the user can fill out the form on the page. 
         3. Alternatively, the footer contains links to the organisation's social media presence.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        4. Whichever link they click, it will be opened up in a new tab to ensure the user can easily get back to the website.
 
     5. As a visiting user, I want to be able to view the details of the routes.
 
@@ -205,27 +215,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [MS1_Round_the_Bend repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://msierag.github.io/MS1_Round_the_Bend/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [MS1_Round_the_Bend repository](https://github.com/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [MS1_Round_the_Bend repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -238,22 +248,13 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 7. Press Enter. Your local clone will be created.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from the Whiskey Drop project [StackOverflow post](https://stackoverflow.com)
+-   The full-screen hero image code came from the CI Whiskey Drop project
 
 -   The code for the scrolling wheel animation came from [Codepen](https://codepen.io/snapsnapturtle/pen/KwRzEx)
 
@@ -263,7 +264,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Inspiration for this site came chiefly from [Motorroutes](https://motorroutes.net/) and [Rever](https://www.rever.co/)
+-   Inspiration for this site came chiefly from [Motorroutes.net](https://motorroutes.net/) and [Rever](https://www.rever.co/)
 
 
 ### Media
