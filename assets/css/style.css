@@ -181,6 +181,12 @@ body {
     background-color: #d4af37;
 }
 
+.block-divider--med {
+    width: 100%;
+    height: 3px;
+    background-color: #d4af37;
+}
+
 /* Buttons */
 
 .btn--cta {
