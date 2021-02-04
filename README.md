@@ -222,7 +222,6 @@ It is listed as a known issue.
         3. Beneath the details and description of each individual route there is a button with the download symbol marked "GPX file".
                
     7. As a visiting user, I want to be able to submit routes.
-
         1. The user can reach the "Uploads" page by selecting the link in the navigation bar or the call to action button in the "Inspire" section on the "Home" page.
         2. Here the user is provided with a form to submit their own route.  
         3. An easily distinguishable "Submit" button at the bottom of the form.  
@@ -231,7 +230,7 @@ It is listed as a known issue.
         1. At the bottom of every page there is a footer which is the same throughout all pages.
         2. In the middle of the footer the user sees a button marked "Subscribe to our Newsletter"
         3. Upon clicking the button a modal form appears where the user is prompted to Enter their email address.
-        3. An easily distinguishable "Submit" button at the bottom of the modal form.
+        4. An easily distinguishable "Submit" button at the bottom of the modal form.
 
 ### Further Testing
 
@@ -243,7 +242,7 @@ It is listed as a known issue.
 
 ### Known Issues
 
--   On mobile devices with a screen narrower than 380px the contents of the card section on index.html pushed out of alignment.
+-   On mobile devices with a screen narrower than 360px the contents of the card section on index.html pushed out of alignment.
     -   Text and text on buttons disappears from view as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
