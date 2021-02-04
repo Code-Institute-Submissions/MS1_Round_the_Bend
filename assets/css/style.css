@@ -282,7 +282,7 @@ div.card {
 /* Scroll invitation */
 /* Code copied and adapted from https://codepen.io/snapsnapturtle/pen/KwRzEx */
 
-.mouse-container {
+.mousecontainer {
     width: 24px;
     margin: 0 auto;
     text-align: center;
