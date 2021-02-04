@@ -133,20 +133,39 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 ## Testing
 
+### Validation 
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-    - Index 
+    - Index - [Result](https://github.com/)
     - Routes - [Result](https://github.com/)
-    - Contact
-    - Uploads
+    - Contact - [Result](https://github.com/)
+    - Uploads - [Result](https://github.com/)
 
     Only the index.html showed a warning. After removing senseless section tags around the Hero image, the warnings have disappeared.
-    - Index - after 
+    - Index - [Result](https://github.com/)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     No errors or warnings were given for the CSS code - [Results](https://github.com/)
+
+### Google Lighthouse
+
+I used Google Lighthouse to audit the site's performance, accessibility, use of best practices and search engine optimization.
+
+Initial testing resulted in the following score:
+-   Performance: 93%
+-   Accessibility: 97%
+-   Best Practices: 93%
+-   SEO: 100%
+
+**Performance** - Most of the suggested improvements involved removing or altering CSS and JavaScript elements which are included in Bootstrap. 
+I decided against tampering with this. 
+
+**Accessibility** - The contrast of the disclaimer in the footer in relation to the background was deemed to be low. To improve this the text colour was changed from #5982DE to #D8F4FB.
+
+**Best Practices** - The social media links in the footer were deemed to be unsafe. To improve this rel="noopener" was added to the links.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -199,6 +218,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. An easily distinguishable "Submit" button at the bottom of the modal form.
 
 ### Further Testing
+
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
