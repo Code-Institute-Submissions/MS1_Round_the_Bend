@@ -163,9 +163,25 @@ Initial testing resulted in the following score:
 **Performance** - Most of the suggested improvements involved removing or altering CSS and JavaScript elements which are included in Bootstrap. 
 I decided against tampering with this. 
 
-**Accessibility** - The contrast of the disclaimer in the footer in relation to the background was deemed to be low. To improve this the text colour was changed from #5982DE to #D8F4FB.
+**Accessibility** - The contrast of the disclaimer in the footer in relation to the background was deemed to be low. Altering the colour would significantly change the overall look of the footer.
+As the information is not essential to understanding the site, the existing colour was left in place.
 
 **Best Practices** - The social media links in the footer were deemed to be unsafe. To improve this rel="noopener" was added to the links.
+
+### Responsiveness testing
+
+To test the responsiveness of the site [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://responsivedesignchecker.com/) were used.
+
+[Desktop 1920x1080](./assets/images/testing/responsiveness/desktop1920x1080.JPG)
+[Notebook 1366x768](./assets/images/testing/responsiveness/notebook1366x768.JPG)
+[Tablet 800x1280](./assets/images/testing/responsiveness/tablet800x1280.JPG)
+[Tablet 768x1024](./assets/images/testing/responsiveness/tablet768x1024.JPG)
+[Smartphone 414x736](./assets/images/testing/responsiveness/smartphone414x736.JPG)
+[Smartphone 375x667](./assets/images/testing/responsiveness/smartphone375x667.JPG)
+
+On screens below 360px the content of the cards becomes misaligned and text is lost from view. [Screensizemap](https://screensizemap.com/) was consulted to determine the popularity of this screen size.
+The popularity listed for this type of screen hovers around 2% and seems to concern smartphones which can be considered at the end of their lifecycle. 
+It is listed as a known issue.   
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -225,10 +241,10 @@ I decided against tampering with this.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Known Issues
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On mobile devices with a screen narrower than 380px the contents of the card section on index.html pushed out of alignment.
+    -   Text and text on buttons disappears from view as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
