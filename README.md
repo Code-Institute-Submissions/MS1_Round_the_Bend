@@ -138,23 +138,23 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-    - Index - [Result](https://github.com/)
-    - Routes - [Result](https://github.com/)
-    - Contact - [Result](https://github.com/)
-    - Uploads - [Result](https://github.com/)
+    - Index - [Result](./assets/images/testing/validation/indexbefore.JPG)
+    - Routes - [Result](./assets/images/testing/validation/routes.JPG)
+    - Contact - [Result](./assets/images/testing/validation/contact.JPG)
+    - Uploads - [Result](./assets/images/testing/validation/uploads.JPG)
 
     Only the index.html showed a warning. After removing senseless section tags around the Hero image, the warnings have disappeared.
-    - Index - [Result](https://github.com/)
+    - Index - [Result](./assets/images/testing/validation/indexafter.JPG)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-    No errors or warnings were given for the CSS code - [Results](https://github.com/)
+    No errors or warnings were given for the CSS code - [Results](./assets/images/testing/validation/css.JPG)
 
 ### Google Lighthouse
 
 I used Google Lighthouse to audit the site's performance, accessibility, use of best practices and search engine optimization.
 
-Initial testing resulted in the following score:
+Initial testing resulted in the following [score]():
 -   Performance: 93%
 -   Accessibility: 97%
 -   Best Practices: 93%
