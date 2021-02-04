@@ -228,7 +228,7 @@ body {
     color: #5982de;
 }
 
-.btn-dwnld {
+.btn--dwnld {
     background-color: #0f306e;
     border-color: #f80905;
     font-weight: bold;
@@ -258,7 +258,7 @@ footer p {
 
 /* Cards */
 
-.routestext {
+.routes-text {
     text-align: justify;
 }
 
