@@ -314,4 +314,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Friends and family for feedback and helpful suggestions.
 
--   Tutor support at Code Institute for their support.
+-   Tutor Kevin Loughrey, at Code Institute for his support.
